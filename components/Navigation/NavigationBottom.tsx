@@ -1,8 +1,6 @@
 import React from "react";
 
-interface Props {}
-
-const NavigationBottom = (props: Props) => {
+const NavigationBottom = () => {
   return <div></div>;
 };
 

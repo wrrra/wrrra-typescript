@@ -1,4 +1,4 @@
-import { Box, Heading, Square, Text } from "@chakra-ui/layout";
+import { Box, Heading, Text } from "@chakra-ui/layout";
 import theme from "@chakra-ui/theme";
 import React from "react";
 import SearchInput from "~/components/Search/SearchInput";
@@ -7,7 +7,7 @@ interface Props {
   children: JSX.Element;
 }
 
-const IndexPage: React.FC<Props> = (props: Props) => {
+const IndexPage: React.FC<Props> = () => {
   return (
     <Box minH="screen">
       <Box h="8" px="8" my="8">

@@ -1,11 +1,11 @@
 import { AppProps } from "next/app";
-import React, { ReactNode } from "react";
+import React from "react";
 import LayoutDefault from "~/components/Layout/LayoutDefault";
 import ChakraProvider from "~/contexts/chakra/ChakraProvider";
 
-interface DefProps {
-  children: JSX.Element;
-}
+// interface DefProps {
+//   children: JSX.Element;
+// }
 
 function MyApp({ Component, pageProps }: AppProps) {
   // const Layout =

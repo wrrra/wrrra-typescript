@@ -7,7 +7,6 @@ import React from "react";
 import {
   RiBriefcaseLine,
   RiFileListLine,
-  RiHome2Fill,
   RiHome3Line,
   RiLightbulbFlashLine,
   RiUser5Line,
@@ -17,7 +16,7 @@ interface Props {
   side: "left" | "right";
 }
 
-const NavigationSide = (props: Props) => {
+const NavigationSide: React.FC<Props> = () => {
   const router = useRouter();
 
   console.log(router);

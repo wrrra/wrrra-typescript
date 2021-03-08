@@ -2,7 +2,7 @@ import React from "react";
 
 interface Props {}
 
-const BlogPage = (props: Props) => {
+const BlogPage: React.FC<Props> = () => {
   return <div>blog </div>;
 };
 

@@ -1,10 +1,10 @@
 import { Button, IconButton } from "@chakra-ui/button";
 import { Image } from "@chakra-ui/image";
-import { Box, Flex, Heading, Square, Text, VStack } from "@chakra-ui/layout";
+import { Box, Flex, Heading, Text, VStack } from "@chakra-ui/layout";
 import React from "react";
 import ActivityItem from "../Activity/ActivityItem";
 import { motion } from "framer-motion";
-import { CheckIcon, CloseIcon, SmallCloseIcon } from "@chakra-ui/icons";
+import { CheckIcon, SmallCloseIcon } from "@chakra-ui/icons";
 import theme from "@chakra-ui/theme";
 import OverviewSocials from "./OverviewSocials";
 const MotionFlex = motion.custom(Flex);

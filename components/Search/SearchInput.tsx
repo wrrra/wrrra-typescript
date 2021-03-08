@@ -1,15 +1,10 @@
 import { Search2Icon } from "@chakra-ui/icons";
-import {
-  Input,
-  InputGroup,
-  InputLeftElement,
-  InputRightElement,
-} from "@chakra-ui/input";
+import { Input, InputGroup, InputLeftElement } from "@chakra-ui/input";
 import React from "react";
 
 interface Props {}
 
-const SearchInput = (props: Props) => {
+const SearchInput: React.FC<Props> = () => {
   return (
     <InputGroup w="sm">
       <InputLeftElement
